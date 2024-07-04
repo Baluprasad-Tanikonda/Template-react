@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.curve{
+  position: absolute;
+  top: 38px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+  padding-top: 20px;
+  background: black;
+  color: white;
+  height: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+ ul {
+  display: flex;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
+}
+
+li {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+} 
+
+li img {
+  height: 25px;
+  width: 25px;
+}
+
+li span {
+  margin-left: 5px;
+  color: white;
+}
+
+.account{
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.ac_pic img {
+  height: 45px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.arrow-img img {
+  height: 18px;
+  width: 20px;
+  margin-left: 15px;
+}
+
+.acc_data{
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.acc_data p{
+  font-size: 14px;
+}
+
+
+@media (max-width: 1300px) {
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .curve {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+        padding-top: 15px;
+        background: black;
+        color: white;
+        height: 50px;
+    }
+
+    .logo {
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        position: relative;
+        bottom: 8px;
+    }
+
+    ul {
+        display: flex;
+        position: relative;
+        left: 20px;
+        bottom: 8px;
+    }
+
+    li {
+        margin: 0 8px;
+        display: flex;
+        align-items: center;
+    }
+
+    li img {
+        height: 20px;
+        width: 20px;
+    }
+
+    li span {
+        margin-left: 4px;
+        color: white;
+    }
+
+    .account {
+        display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 8px;
+    }
+
+    .ac_pic img {
+        height: 35px;
+        width: 30px;
+        border-radius: 50%;
+    }
+
+    .arrow-img img {
+        height: 15px;
+        width: 18px;
+        margin-left: 10px;
+    }
+
+    .acc_data {
+        padding-left: 8px;
+        margin-bottom: 4px;
+    }
+
+    .acc_data p {
+        font-size: 12px;
+    }
+}

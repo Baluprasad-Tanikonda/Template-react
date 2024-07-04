@@ -1,0 +1,327 @@
+/** @format */
+
+.leaderboard {
+  position: absolute;
+  right: 15px;
+  top: 80px;
+  width: 100%;
+  max-width: 30%;
+  height: 87vh;
+  border-radius: 0 25px 25px 0;
+  background: #efefef;
+}
+.leader-head {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 35px;
+}
+.leader-head p{
+  font-size: 30px;
+  font-weight: 500;
+}
+.leader-head img{
+  position: relative;
+  bottom: 14px;
+}
+.leader-profile {
+ position: absolute;
+ top: 70px;
+ left: 160px;
+}
+.leader-profile img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 10px;
+}
+.leader-profile p {
+  position: relative;
+  top: -16px;
+  left: -8px;
+  font-size: 18px;
+}
+
+.leader-profile button {
+  font-size: 12px;
+  position: relative;
+  top: -12px;
+  left: -10px;
+  padding: 6px 8px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transform: rotate(5deg);
+}
+
+.leadercard-list {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  width: 100%;
+  height: 55px;
+  max-width: 55%;
+  margin-left: 90px;
+  position: relative;
+  top: 170px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.leadercard-list img {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.leadercard-datails {
+  padding-top: 10px;
+  padding-right:40px;
+}
+
+.number h2 {
+  font-size: 18px;
+  position: relative;
+  text-align: center;
+  left: -15px;
+  top: 10px;
+  background-color: #e8b0fe;
+  padding: 5px 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.leadercard-datails p {
+    font-size: 12px;
+  font-weight: 700;
+  color: #747474;
+}
+
+
+@media (max-width: 1200px) {
+  .leaderboard {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    width: 100%;
+    max-width: 25%;
+    height: 89vh;
+    border-radius: 0 20px 20px 0;
+    background: #efefef;
+  }
+
+  .leader-head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+  }
+
+  .leader-head p {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .leader-head img {
+    position: relative;
+    bottom: 12px;
+  }
+
+  .leader-profile {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+  }
+
+  .leader-profile img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 8px;
+  }
+
+  .leader-profile p {
+    position: relative;
+    top: -14px;
+    left: -6px;
+    font-size: 16px;
+  }
+
+  .leader-profile button {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    left: -8px;
+    padding: 5px 7px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    transform: rotate(4deg);
+  }
+
+  .leadercard-list {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 50px;
+    max-width: 50%;
+    margin-left: 100px;
+    position: relative;
+    top: 150px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+
+  .leadercard-list img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 4px;
+    margin-left: 8px;
+    border-radius: 50%;
+  }
+
+  .leadercard-datails {
+    width: 100%;
+    padding-top: 8px;
+    padding-right: 35px;
+  }
+
+  .leadercard-datails h5{
+    font-size: 10px;
+  }
+
+  .number h2 {
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    left: -12px;
+    top: 8px;
+    background-color: #e8b0fe;
+    padding: 4px 4px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+  }
+
+  .leadercard-datails p {
+    font-size: 6px;
+    font-weight: 700;
+    color: #747474;
+  }
+}
+
+
+
+@media (max-width: 1300px) {
+  .leaderboard {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    width: 100%;
+    max-width: 35%;
+    height: 89vh;
+    border-radius: 0 20px 20px 0;
+    background: #efefef;
+  }
+
+  .leader-head {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25px;
+  }
+
+  .leader-head p {
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  .leader-head img {
+    position: relative;
+    bottom: 12px;
+  }
+
+  .leader-profile {
+    position: absolute;
+    top: 60px;
+    left: 160px;
+  }
+
+  .leader-profile img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 8px;
+  }
+
+  .leader-profile p {
+    position: relative;
+    top: -14px;
+    left: -6px;
+    font-size: 16px;
+  }
+
+  .leader-profile button {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    left: -8px;
+    padding: 5px 7px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    transform: rotate(4deg);
+  }
+
+  .leadercard-list {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: 100%;
+    height: 50px;
+    max-width: 50%;
+    margin-left: 100px;
+    position: relative;
+    top: 150px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+
+  .leadercard-list img {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 4px;
+    margin-left: 8px;
+    border-radius: 50%;
+  }
+
+  .leadercard-datails {
+    padding-top: 8px;
+    padding-right: 35px;
+  }
+
+  .number h2 {
+    font-size: 16px;
+    position: relative;
+    text-align: center;
+    left: -12px;
+    top: 8px;
+    background-color: #e8b0fe;
+    padding: 4px 4px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+  }
+
+  .leadercard-datails p {
+    font-size: 11px;
+    font-weight: 700;
+    color: #747474;
+  }
+}
